@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+<head><body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: left;
+        }
+
+        h1, h3, h5 {
+            text-align: center;
+            color: #333;
+        }
+
+        input[type="text"], 
+        input[type="number"],
+        input[type="radio"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            width: auto;
+        }
+
+        button {
+            width: calc(33.3% - 10px);
+            padding: 10px;
+            margin: 10px 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .gender-section, .qualification-section {
+            margin: 10px 0;
+        }
+    </style>
 </head>
-<body>
-    <h1>STUDENT REGISTRATION FORM</h1><br>
-    <h3>MCA</h3><br>
-    <h5>Section-C</h5><br>
-    <form align="center">
-    NAME<input type="text" placeholder="Enter Your Name"><br>
-    DOB<input type="text" placeholder="Enter DOB"><br>
-    AGE<input type="number" placeholder="Enter AGE" ><br>
-    Father's Name<input type="text" placeholder="Enter Father's Name"><br>
-    Mother's Name<input type="text" placeholder="Enter Mother's Name"><br>
-    Education<input type="Text" placeholder="Enter the Last Qualification"><br>
-</form></body>
-</html>
+</body>
+    </html>

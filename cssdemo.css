@@ -1,0 +1,155 @@
+
+/* css selectors are pattern used to select and style specific html element
+
+1. Universal selector (*)-OR 
+*{
+
+}
+2. Class selector(.)
+.container{
+color: red;
+}
+.java{
+color: brown;
+margin= 10px;
+font-size: 30px;
+}
+
+3. ID selector
+#SectionC
+{ color: red;
+ font-size
+ first priority
+}
+ 
+4. Group Selector
+div,p,h1{
+color:aqua;
+
+}
+5.Decendant Selector
+div p h1
+{
+}
+6. Attribute Selector
+input[type="text"]
+{
+color: blue;
+}
+*/
+/*.subject>li
+{ padding: 15%;
+    margin: 3 px;
+    color: brown;
+}
+.section>li
+{
+    color: blue;
+    font-size: 20 px;
+    margin: 2 px;
+}
+div + p {
+    margin: 5 px;
+    font-size: 18 px;
+    color: red;
+}
+input[type="text"]
+{
+color: black;
+font-size: 10 px;
+margin: 5 px;
+
+}
+
+div {
+
+    color: blue;
+    margin: 40 px;
+    font-size: 20 px;
+}
+    */
+
+    /* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for ordered lists */
+ol.subject, ol.section {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+/* Specific styling for the subject list */
+ol.subject {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Specific styling for the section list */
+ol.section {
+    background-color: #e6f7ff; /* Lighter blue background */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Styling for outer div */
+.outer-div {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for inner div */
+.inner-div {
+    background-color: #e1f5fe; /* Light cyan background */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Styling for paragraphs inside the outer div */
+.outer-div p {
+    font-size: 16px;
+    color: #2f4f4f;
+    margin: 10px 0;
+}
+
+/* Styling for all paragraphs */
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Styling for input elements */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for checkbox */
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+/* Placeholder styling for input elements */
+input::placeholder {
+    color: #888;
+    font-style: italic;
+}
